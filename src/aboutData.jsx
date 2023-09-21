@@ -1,0 +1,33 @@
+export const aboutData = {
+  heading: "About me",
+  content: [
+    "/*",
+    "* About me",
+    "* A passionate front-end developer with a background in mobile app", 
+    "* development. I started my journey in web development during my",
+    "* studies in computer engineering.",
+    "*",
+    "* This background provided me with a strong foundation in ",
+    "* programming and problem-solving, which I now apply to creating",
+    "* engaging web applications.",
+    "* ",
+    "* I specialize in front-end development, with proficiency in ",
+    "* technologies such as HTML, CSS, and JavaScript.",
+    "* I'm passionate about creating responsive and accessible websites",
+    "* that not only look stunning but also provide seamless user",
+    "* experiences. I believe in the power of collaboration and",
+    "* continuous learning.",
+    "*",
+    "* I'm always excited to work on new projects, collaborate with",
+    "* creative minds, and contribute to innovative solutions.",
+    "* Feel free to contact me if you have a project in mind or",
+    "* just want to say hello.",
+    "* ",
+    "* Thank you for visiting my portfolio, and I look forward to the",
+    "*  opportunity of working together to bring your",
+    "* digital ideas to life.",
+    "*/",
+  ],
+};
+
+export default aboutData;

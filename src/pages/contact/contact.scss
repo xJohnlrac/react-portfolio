@@ -1,0 +1,138 @@
+@import '../../styles/variables.scss';
+@import '../../styles/responsive.scss';
+
+.contact {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+
+  .files {
+    width: 50%;;
+    display: flex;
+    border: 1px solid $line-color;
+    flex-direction: column;
+    font-size: 12px;
+
+    .tabs {
+      display: flex;
+      width: 100%;
+
+      .personal-info {
+        width: 200px;
+        height: 30px;
+        border: 1px solid $line-color;
+        border-top: 0;
+        border-left: 0;
+        display: flex;
+        justify-content: space-between;
+        padding: 0 10px;
+        align-items: center;
+        color: $soft-text;
+      }
+  
+      .space-files {
+        width: 100%;
+        height: 30px;
+        border: 1px solid $line-color;
+        border-top: 0;
+        border-left: 0;
+        display: flex;
+        justify-content: space-between;
+        padding: 0 10px;
+        align-items: center;
+      }
+    }
+      
+    .card {
+      display: flex;
+      flex-direction: column;
+
+      .contactInfo {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        margin-top: 40px;
+        text-transform: lowercase;
+        color: $soft-text;
+        font-size: 20px;
+
+        p {
+          font-size: 10px;
+        }
+      }
+
+      form {
+        display: flex;
+        flex-direction: column;
+        margin: 40px 90px;
+        gap: 10px;
+
+        .username, .email, .message, .subject  {
+          display: flex;
+          flex-direction: column;
+          gap: 5px;
+          color: $soft-text;
+          
+          input, textarea {
+            border: 1px solid $line-color;
+            background: $soft-bg;
+            padding: 4px;
+            border-radius: 5px;
+            color: $soft-text;
+          }
+
+          textarea {
+            border: 2px solid #1c2b3a;
+          }
+
+          input::placeholder,
+          textarea::placeholder {
+            color: $soft-text;
+            font-size: 10px;
+          }
+        }
+        button {
+          width: 120px;
+          background: #1c2b3a;
+          color: $main-text;
+          padding: 5px;
+          border: none;
+          border-radius: 5px;
+          cursor: pointer;
+         }
+      }
+    }
+  }
+
+  .showcase {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+
+    .snippet {
+      display: flex;
+      flex-direction: column;
+      margin: 80px 70px;
+      gap: 5px;
+
+      img {
+        border-radius: 5px;
+      }
+    }
+
+    hr {
+      border: 1px solid $line-color;
+      margin-top: -60px;
+    }
+
+    .textCode {
+      font-size: 12px;
+      margin-top: -20px;
+      padding-left: 40px;
+      color: $soft-text;
+    }
+  }
+}
+

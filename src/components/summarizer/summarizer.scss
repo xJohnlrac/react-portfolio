@@ -1,0 +1,49 @@
+@import '../../styles/variables.scss';
+
+.summarizer {
+  display: flex;
+  flex-direction: column;
+
+  img {
+    width: 100%;
+    object-fit: cover;
+  }
+
+  .info {
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    gap: 20px;
+    position: relative;
+
+    span {
+      color: $soft-text;
+      font-size: 12px;
+    }
+
+    button {
+      background: #1c2b3a;
+      border: none;
+      color: $main-text;
+      width: 40%;
+      padding: 5px;
+      border-radius: 5px;
+      cursor: pointer;
+    }
+
+    .react {
+      width: 20px;
+      position: absolute;
+      right: 10px;
+      bottom: 12px;
+    }
+
+    .tailwind {
+      width: 22px;
+      position: absolute;
+      right: 40px;
+      bottom: 11px;
+    }
+
+  }
+}
