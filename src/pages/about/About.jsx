@@ -6,11 +6,11 @@ const About = () => {
     <div className='about'>
       <div className="files">
         <div className="tabs">
-        <div className="personal-info">
-        <span>personal-info</span>
-        <span>x</span>
-        </div>
-        <div className="space-files"></div>
+          <div className="personal-info">
+            <span>personal-info</span>
+            <span>x</span>
+          </div>
+         <div className="space-files"></div>
         </div>
         <div className="code">
           {aboutData.content.map((text, index) => (
@@ -46,6 +46,10 @@ const About = () => {
         <hr />
         <div className="codeInfo">
           <p>Local storage is a vital tool in web development, allowing web apps to store and retrieve user data on their device. Retrieval is done using JavaScript's `localStorage` object by specifying a key. Removing data is equally important, achieved with the `removeItem` method. Local storage enhances user experiences by persisting essential data, improving app performance, and providing personalization options.</p>
+        </div>
+        <div className="m-code">
+          <span>About me</span>
+          <p>I am a passionate front-end developer with a background in computer engineering. My journey in web development began during my studies, giving me strong programming and problem-solving skills. I specialize in front-end technologies like HTML, CSS, and JavaScript, creating responsive and accessible websites. Collaboration and continuous learning drive my work. I'm always excited about new projects and creative collaborations. Feel free to contact me for projects or just to say hello. Thank you for visiting my portfolio, and I'm eager to bring your digital ideas to life.</p>
         </div>
       </div>
     </div>

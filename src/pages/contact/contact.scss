@@ -13,6 +13,14 @@
     flex-direction: column;
     font-size: 12px;
 
+    @include sm {
+      width: 100%;
+    }
+
+    @include md {
+      width: 100%;
+    }
+
     .tabs {
       display: flex;
       width: 100%;
@@ -100,6 +108,14 @@
           border: none;
           border-radius: 5px;
           cursor: pointer;
+
+          @include sm {
+            width: 100%;
+          }
+      
+          @include md {
+            width: 100%;
+          }
          }
       }
     }
@@ -110,6 +126,14 @@
     display: flex;
     flex-direction: column;
     gap: 40px;
+
+    @include sm {
+      display: none;
+    }
+
+    @include md {
+      display: none;
+    }
 
     .snippet {
       display: flex;
