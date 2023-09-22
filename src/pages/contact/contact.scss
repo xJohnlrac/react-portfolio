@@ -76,6 +76,18 @@
         margin: 40px 90px;
         gap: 10px;
 
+        @include sm {
+          display: flex;
+          flex-direction: column;
+          margin: 40px;
+          max-height: 400px;
+          overflow-y: auto; 
+    
+          &::-webkit-scrollbar {
+            display: none;
+          }
+        }
+
         .username, .email, .message, .subject  {
           display: flex;
           flex-direction: column;
