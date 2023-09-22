@@ -13,7 +13,6 @@ const Contact = () => {
     emailjs.sendForm('service_88s04bd', 'template_g2mlqil', form.current, '7hkChJT4u0TulO1uZ')
       .then((result) => {
           console.log(result.text);
-          alert('message sent ')
       }, (error) => {
           console.log(error.text);
       });
